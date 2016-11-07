@@ -9,5 +9,5 @@
 >>**Spirala1:** _Svi html fajlovi._  <br>
 >>**css:** _Css kod za svaki element na stranici, font koji sam koristila te slika za pozadinu._ <br>
 >>**img:** _Slike koje su korištene da se poredaju na stranicu._ <br>
->>**js:** _js za meni da bi bio prilagodjen mobilnim uredjajima._ <br>
+>>**js:** _Javascript za meni da bi bio prilagodjen mobilnim uređajima._ <br>
 >>**Mockup:** _Skice podstranica._   
