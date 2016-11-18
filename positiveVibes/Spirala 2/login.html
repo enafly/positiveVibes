@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PositiveVibes</title>
+
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="js/indexJS.js"></script>
+<script type="text/javascript" src="js/validacijeJS.js"></script>
+
+<link rel="stylesheet" href="css/indexStil.css">
+<link rel="stylesheet" href="css/errori.css">
+
+
+</head>
+<body>
+
+	<div class="header" >
+		<div id="row-1" class="col-12">
+			<div id="logo" class="col-3">
+				<a href="index.html"><img class="logo" src="img/logo.png" alt="PositiveVibes" ></a>
+			</div>
+			<div id=menu-wraper>
+				<span id="menu-trigger" onclick="prikazi('menu');">MENU</span>
+				<div id="menu" class="col-9">
+					<ul id=nav>
+	  				<li><a  href="oNama.html" >O nama</a></li>
+			  		<li><a  href="popularno.html" >Popularno</a></li>
+			  		<li><a 	href="najnovije.html" >Najnovije</a></li>
+			  		<li><a 	href="registracija.html" >Registracija</a></li>
+			  		<li><a  href="login.html" >Prijavi se</a></li>
+			  		</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="glavni" class="col-12">
+			<div id="containerRL">
+				<div id=tabbox>
+					<a href="#" id="signIn" class="tab SignIn">Prijavi se</a>
+				</div>
+				<div id="formpanel">
+					<div id="prijaviSebox">
+						<form id="LogInForma"  action="form_action.asp" onsubmit="return validacijaP()" method="post">
+			  				<input type="text" id="userP" name="userP" class="textStil" tabindex="1" placeholder="Korisničko ime">
+								<p id="obav">*</p>
+								<p id="korisnickiErrP" ></p>
+								<input type="password" id="passP" name="passP" class="textStil" tabindex="2" placeholder="Šifra">
+								<p id="obav">*</p>
+								<p id="passErrP" ></p>
+								<div class="cxbCenter">
+								<input type="checkbox" name="zapamti" value="zapamti" tabindex="3">Zapamti me
+	  						</div>
+	 			 			<input type="submit" form="LogInForma" value="Prijavi se" class="btn" tabindex="4">
+							<p id="obavPod">Polja označena (*) su obavezna!</p>
+							<div class="text-center">
+								<a href="zaboravljenaSifra.html" tabindex="5" class="zaboravioPas">Zaboravljena šifra?</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

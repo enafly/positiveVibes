@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PositiveVibes</title>
+
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="js/indexJS.js"></script>
+<script type="text/javascript" src="js/validacijeJS.js"></script>
+
+<link rel="stylesheet" href="css/indexStil.css">
+<link rel="stylesheet" href="css/errori.css">
+
+</head>
+<body>
+
+	<div class="header" >
+		<div id="row-1" class="col-12">
+			<div id="logo" class="col-3">
+				<a href="index.html"><img class="logo" src="img/logo.png" alt="PositiveVibes" ></a>
+			</div>
+			<div id=menu-wraper>
+				<span id="menu-trigger" onclick="prikazi('menu');">MENU</span>
+				<div id="menu" class="col-9">
+					<ul id=nav>
+	  				<li><a  href="oNama.html" >O nama</a></li>
+			  		<li><a  href="popularno.html" >Popularno</a></li>
+			  		<li><a 	href="najnovije.html" >Najnovije</a></li>
+			  		<li><a 	href="registracija.html" >Registracija</a></li>
+			  		<li><a  href="login.html" >Prijavi se</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="glavni" class="col-12">
+			<div id="containerRL">
+				<div id=tabbox>
+					<a href="#" id="vrati" class="tab vrati">Vrati račun</a>
+				</div>
+				<div id="formpanel">
+					<div id="Vratibox">
+						<form id="VratiForma"  action="form_action.asp" onsubmit="return validacijaV()" method="post">
+							<input type="text" id="useremail" name="useremail" class="textStil1" tabindex="1" placeholder="E-mail">
+							<p id="emailErrV" ></p>
+							<input type="submit" form="VratiForma" value="Pošalji" class="btn1" tabindex="2">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
