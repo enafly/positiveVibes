@@ -31,5 +31,5 @@
 >>_indexJS.js_ Funkcija za padajuci meni-mobitel<br>
 >>_validacijeJS.js_ Funkcije za validiranje<br>
  
->>**Mockups**<br>
+>>**Mockup**<br>
 >>_Slike kako bi trebala stranica izgledati u raznim trenucima, imena govore sve._
