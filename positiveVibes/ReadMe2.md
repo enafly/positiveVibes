@@ -23,11 +23,11 @@
 >_MontserratAlternates-Regular.otf_ font regular<br>
 
 >>**img:** _Slike koje su korištene da se poredaju na stranicu._ <br>
->_Razne slike korištene na stranici_
+>_Razne slike korištene na stranici._
 
 >>**js:** _Javascript za meni da bi bio prilagodjen mobilnim uređajima, validacije, carousel, fullscreen._ <br>
 >>_carouselJS.js_ Funkcije za carousel, button naprijed, nazad<br>
->>_fullscreenJS.js_ Funkcija za fullscreen <br>
+>>_fullscreenJS.js_ Funkcija za fullscreen i esc funkcionalnost <br>
 >>_indexJS.js_ Funkcija za padajuci meni-mobitel<br>
 >>_validacijeJS.js_ Funkcije za validiranje<br>
  
