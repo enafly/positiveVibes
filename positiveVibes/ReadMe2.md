@@ -1,7 +1,7 @@
 ﻿>>## Spirala 2
 <br>
 
->####I : Urađeno je sve osim ajaxa!
+>####I : Urađeno je sve!
 >####II: / 
 >####III: /
 >####IV: /
