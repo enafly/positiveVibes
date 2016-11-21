@@ -14,7 +14,7 @@ Carousel.prototype.next = function (interval) {
 	this.stop();
 	this.slide(this.current);
 
-	if(typeof interval === 'slike' && (interval % 1) === 0) {
+	if(typeof interval === 'slike'  && (interval % 1) === 0) {
 		var context = this;
 		this.run = setTimeout(function() {
 			context.next(interval);
@@ -28,7 +28,7 @@ Carousel.prototype.prev = function (interval) {
 	this.stop();
 	this.slide(this.current);
 
-	if(typeof interval === 'slike' && (interval % 1) === 0) {
+	if(typeof interval === 'slike'  && (interval % 1) === 0 ) {
 		var context = this;
 		this.run = setTimeout(function() {
 			context.prev(interval);

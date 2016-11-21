@@ -7,5 +7,4 @@ function prikazi(id){
 	else {
 		m.style.display== 'none';
 	}
-
 }
