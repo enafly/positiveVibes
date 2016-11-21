@@ -1,10 +1,10 @@
 ﻿>>## Spirala 2
 <br>
 
->####I : Urađeno je sve osim ajaxa! BRB
->####II: / Ajaaaax soooon 
->####III: Bug koji znam ispraviti
->####IV: Bug koji ne znam ispraviti
+>####I : Urađeno je sve osim ajaxa!
+>####II: / 
+>####III: /
+>####IV: /
 >####V: Folderi i fajlovi:
 >>**Spirala2:** _Svi html fajlovi._  <br>
 >_index.html_ početna stranica<br>
@@ -30,6 +30,7 @@
 >>_fullscreenJS.js_ Funkcija za fullscreen i esc funkcionalnost <br>
 >>_indexJS.js_ Funkcija za padajuci meni-mobitel<br>
 >>_validacijeJS.js_ Funkcije za validiranje<br>
+>>_ajaxJS.js_ Funkcije za ajax<br>
  
 >>**Mockup**<br>
 >>_Slike kako bi trebala stranica izgledati u raznim trenucima, imena govore sve._
