@@ -100,7 +100,7 @@ header{
 
 }
 
-#glavni, #popularno{
+#glavni{
      background-color: transparent;
      display: flex;
      width: 100%;
@@ -334,7 +334,7 @@ span{
     #menu{
         display: none;
     }
-    #glavni, #popularno{
+    #glavni{
         display:block;
         align-items:center;
     }
@@ -354,7 +354,7 @@ span{
         float:none;
         border-bottom: 1px solid;
     }
-     #glavni img, #popularno img{
+     #glavni img{
       display: inline-block;
       width: 100%;
       height: 100%;
@@ -369,7 +369,7 @@ span{
     #menu{
         display: none;
     }
-    #glavni, #popularno{
+    #glavni{
         display:block;
         align-items:center;
     }
@@ -404,7 +404,7 @@ span{
         width:100%;
         height:auto;
     }
-    #glavni img, #popularno img{
+    #glavni img{
       display: inline-block;
       width: 100%;
       height: 100%;
