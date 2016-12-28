@@ -10,9 +10,8 @@ function showResult(str) {
     return;
   }
   if (window.XMLHttpRequest) {
-    // code for IE7+, Firefox, Chrome, Opera, Safari
     xmlhttp=new XMLHttpRequest();
-  } else {  // code for IE6, IE5
+  } else {
     xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
   }
   xmlhttp.onreadystatechange=function() {
@@ -29,8 +28,9 @@ function showResult(str) {
 <div id='containerRL'>
 <div id='formpanel'>
     <div id='prijaviSebox'>
+      <h2 id='pretraga'> Pretražite stranicu i malo šire ;)</h2>
       <form>
-        <input type="text" size="30" onkeyup="showResult(this.value)">
+        <input type="text" size="30" class="textStil" onkeyup="showResult(this.value)">
         <div id="livesearch"></div>
       </form>
     </div>
@@ -39,7 +39,5 @@ function showResult(str) {
 </div>
 
 <?php
-
 	include('footer.php');
-
 ?>

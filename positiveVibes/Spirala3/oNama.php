@@ -18,7 +18,7 @@ else {
 						</div>
 
 						<div class='col-8'>
-							<table>
+							<table id='tabelaKor'>
 								<TR>
 									<TD><img id='oNama' src='".(string)$srcSlike."'  alt='Stay positive!'> </TD>
 									<TD><h3 id='tekst'>".(string)$tekst."</h3> </TD>
