@@ -70,14 +70,32 @@
 >####III: /
 >####IV: /
 >####V: Folderi i fajlovi:
->>**Spirala2:** _Svi html fajlovi._  <br>
->_index.html_ početna stranica<br>
->_login.html_ Prijava <br>
->_najnovije.html_ Najnoviji sadržaj<br>
->_oNama.html_ O nama<br>
->_popularno.html_ Popularni sadržaj<br>
->_registracija.html_ Registracija<br>
->_zaboravljenaSifra.html_ Kad se zaboravi šifra da se mail pošalje<br>
+>>**Spirala2:** _Svi html,php i xml fajlovi._  <br>
+>_adminKorisnici.php_ Admin logovan, upravlja korisnicima(može da ih briše/banuje)<br>
+>_csv.php_ Download csv fajla(za admina)<br>
+>_feedback.php_ Feedback korisnika <br>
+>_feedback.xml_ xml fajl sa feedback-om korisnika <br>
+>_footer.php_ podnožje stranica <br>
+>_header.php_ zaglavlje stranica <br>
+>_index.php_ početna stranica<br>
+>_izmjenaOmeni.php_ Dio od "O nama" <br>
+>_links.xml_ xml fajl sa linkovima za search <br>
+>_livesearch.php_ php kod za livesearch <br>
+>_login.php_ Prijava <br>
+>_mydata.xml_ Podaci o adminu <br>
+>_nepostojeciKorisnik.php_ Prilikom registracije korisnika <br>
+>_odjava.php_ Odjava korisnika <br>
+>_omeni.php_ Dio o nama <br>
+>_opcijeAdmin.php_ Opcije koje ima admin <br>
+>_pdf.php_ Download pdf fajla(za admina) <br>
+>_pogresnaSifra.php_ Korisnik pogriješio šifru <br>
+>_popularno.php_ Popularni sadržaj<br>
+>_prijava.php_ Kada je korisnik prijavljen <br>
+>_promenaOmeni.php_ Kada admin mijenja "O nama" <br>
+>_registracija.php_ Registracija<br>
+>_search.php_ Search <br>
+>_users.xml_ Korisnici koji su registrovani <br>
+>_zaboravljenaSifra.php_ Kad se zaboravi šifra da se mail upiše<br>
 
 >>**css:** _Css kod za svaki element na stranici, font koji sam koristila te slika za pozadinu. <br>
 >_bcg.jpeg_ slika za pozadinu<br>
