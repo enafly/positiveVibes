@@ -79,21 +79,25 @@
 >_header.php_ zaglavlje stranica <br>
 >_index.php_ početna stranica<br>
 >_izmjenaOmeni.php_ Dio od "O nama" <br>
+>_klikPromenaSlike.php_ Dio od "O nama" za mijenjanje slike <br>
 >_links.xml_ xml fajl sa linkovima za search <br>
 >_livesearch.php_ php kod za livesearch <br>
 >_login.php_ Prijava <br>
 >_mydata.xml_ Podaci o adminu <br>
 >_nepostojeciKorisnik.php_ Prilikom registracije korisnika <br>
 >_odjava.php_ Odjava korisnika <br>
->_omeni.php_ Dio o nama <br>
+>_omeni.xml_ xml file sa podacima "O nama" <br>
+>_oNama.php_ Dio o nama <br>
 >_opcijeAdmin.php_ Opcije koje ima admin <br>
 >_pdf.php_ Download pdf fajla(za admina) <br>
 >_pogresnaSifra.php_ Korisnik pogriješio šifru <br>
 >_popularno.php_ Popularni sadržaj<br>
 >_prijava.php_ Kada je korisnik prijavljen <br>
->_promenaOmeni.php_ Kada admin mijenja "O nama" <br>
+>_promenaOmeni.php_ Kada admin mijenja "O nama" tekst <br>
+>_promeniSliku.php_ Kada admin mijenja "O nama" sliku <br>
 >_registracija.php_ Registracija<br>
 >_search.php_ Search <br>
+>_upload.php_ Za upload slike <br>
 >_users.xml_ Korisnici koji su registrovani <br>
 >_zaboravljenaSifra.php_ Kad se zaboravi šifra da se mail upiše<br>
 
@@ -105,12 +109,12 @@
 >_MontserratAlternates-Regular.otf_ font regular<br>
 
 >>**img:** _Slike koje su korištene da se poredaju na stranicu._ <br>
->_Razne slike korištene na stranici._
+>_Razne slike korištene na stranici,i spašavaju se nove koje se mijenjaju na "O nama" stranici sa adminskim privilegijama._
 
 >>**js:** _Javascript za meni da bi bio prilagodjen mobilnim uređajima, validacije, carousel, fullscreen._ <br>
 >>_carouselJS.js_ Funkcije za carousel, button naprijed, nazad<br>
 >>_fullscreenJS.js_ Funkcija za fullscreen i esc funkcionalnost <br>
->>_indexJS.js_ Funkcija za padajuci meni-mobitel<br>
+>>_indexJS.js_ Funkcija za padajući meni-mobitel<br>
 >>_validacijeJS.js_ Funkcije za validiranje<br>
 >>_ajaxJS.js_ Funkcije za ajax<br>
  
