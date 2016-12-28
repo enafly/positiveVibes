@@ -9,8 +9,8 @@ $tekst = $podaci->cont[0]->tekst;
 if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true){
 		//Print za admina
 			header('Location: izmjenaOmeni.php');
-		}
-		else {
+}
+else {
 			print"
 				<div class='row'>
 					<div id='glavni' class='col-12'>
@@ -31,6 +31,6 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true){
 
 						</div>
 						</div>";
-		}
+}
 include('footer.php');
 ?>

@@ -15,20 +15,7 @@ $loginname = $mydata->login_details[0]->login_name;
 if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true){
     //Print za admina
 			header("Location: opcijeAdmin.php");
-		/*print"
-		<div class='col-2'>
-		</div>
 
-		<div class='col-8'>
-
-		<h1 id ='dobrodoslica'> Dobrodošla ".(string)$loginname." ! </h1>
-		<h3 id='adminMogucnost'> Imate mogućnost da pogledate: </h3>
-		<a href='adminKorisnici.php' id='link'><input type='button' value='Korisnike' class='btnA'></a>
-		<a href='feedback.php' id='link'><input type='button' value='Feedback' class='btnA'></a>
-		</div>
-
-		<div class='col-2'>
-		</div> ";*/
 }
 else{
 	$neLogovan= "

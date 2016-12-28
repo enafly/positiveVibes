@@ -18,9 +18,10 @@ print"
 			</TR>
 		</table>
 </div>
-<!--opcijeAdmin.php-->
+<!--opcije za Admina-->
 <div class='col-2'>
-  <a href='promenaOmeni.php' id='link'><input type='button' value='Promijeni' class='btnA'></a>
+  <a href='promenaOmeni.php' id='link'><input type='button' value='Promijeni tekst' class='btnA'></a>
+	<a href='promeniSliku.php' id='link'><input type='button' value='Promijeni sliku' class='btnA'></a>
 </div>";
 
 

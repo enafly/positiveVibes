@@ -8,7 +8,6 @@ if(isset($_POST ['brisanje'])){
  		unset($kom->komentar[intval($red)]);
 
 		file_put_contents("feedback.xml", $kom->saveXML());
-
 }
 
 if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true){
@@ -20,6 +19,7 @@ print"
 </div>
 
 <div class='col-8'>
+<h3 id='tekst'> Nije uredu da admin ostavlja feedback na svoju stranicu! </h3>
 			<h3 id='tekst'> Feedback</h3>";
 		 $kom=simplexml_load_file('feedback.xml');
 			$ukupno=count($kom);

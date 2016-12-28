@@ -1,10 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <users>
-<user>
-<username> blaaa1 </username>
-<email> blaa@gmail.com </email>
-<pass> bgfcn,cv </pass>
-</user>
+
 
 <user>
 <username> blaaa3 </username>
@@ -12,10 +8,6 @@
 <pass> bgfcn,cv </pass>
 </user>
 
-<user>
-<username> blaaa5 </username>
-<email> blaa@gmail.com </email>
-<pass> bgfcn,cv </pass>
-</user>
 
-<user><username>mirza</username><email>miduds@gmail.com</email><pass>809d3570023bd56a9d79b93a984f1843</pass></user></users>
+
+<user><username>mirza</username><email>miduds@gmail.com</email><pass>809d3570023bd56a9d79b93a984f1843</pass></user><user><username>nadza</username><email>sjk@fkf.com</email><pass>a03fd6e43c16b44429d829dffa31321a</pass></user></users>
