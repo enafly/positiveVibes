@@ -39,7 +39,7 @@ session_start();
                   print "<li><a  href='login.php' > Prijava/Registracija</a></li>";
               }
             ?>
-            <li><a 	href="search.php" >Search</a></li>
+            <li><a 	href="search.php" >Search</a></li>        
 					</ul>
 				</div>
 			</div>
