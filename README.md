@@ -92,6 +92,7 @@
 >_pdf.php_ Download pdf fajla(za admina) <br>
 >_pogresnaSifra.php_ Korisnik pogriješio šifru <br>
 >_popularno.php_ Popularni sadržaj<br>
+>_potvrdaFee.php_ Potvrda poslanog feedbacka<br>
 >_prijava.php_ Kada je korisnik prijavljen <br>
 >_promenaOmeni.php_ Kada admin mijenja "O nama" tekst <br>
 >_promeniSliku.php_ Kada admin mijenja "O nama" sliku <br>
