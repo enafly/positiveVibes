@@ -15,7 +15,6 @@ $loginname = $mydata->login_details[0]->login_name;
 if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true){
     //Print za admina
 			header("Location: opcijeAdmin.php");
-
 }
 else{
 	$neLogovan= "

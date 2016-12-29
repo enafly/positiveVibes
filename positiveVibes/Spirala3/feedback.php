@@ -114,7 +114,7 @@ if(isset($_REQUEST['posaljiFeedback']))
 
 	$komentari->asXML('feedback.xml');
 
-
+	header("Location: potvrdaFee.php");
 }
 
 include('footer.php');

@@ -24,7 +24,5 @@ print"
 <div class='col-2'>
 </div> ";
 
-
-
 	include('footer.php');
 ?>
