@@ -1,6 +1,6 @@
 var emailRegex = /^[-a-z0-9~!$%^&*_=+}{\'?]+(\.[-a-z0-9~!$%^&*_=+}{\'?]+)*@([a-z0-9_][-a-z0-9_]*(\.[-a-z0-9_]+)*\.(aero|arpa|biz|com|coop|edu|gov|info|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$/;
 var userRegex =/^[a-zA-Z0-9]+$/;
-var passRegex = /^[a-zA-Z0-9]+.{8,20}$/;
+var passRegex = /^[a-zA-Z0-9]+.{7,20}$/;
 
 
 function validacijaR()
