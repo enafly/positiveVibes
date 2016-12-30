@@ -28,7 +28,7 @@ print"
    $xml = new SimpleXMLElement("<omeni/>");
    $cont= $xml->addChild("cont");
    $cont->addChild('slikaLoc',$srcSlike);
-   $cont->addChild('tekst', $_REQUEST["postOM"]);
+   $cont->addChild('tekst', proveri($_REQUEST["postOM"]));
    file_put_contents("omeni.xml",$xml->asXML());
    header('Location: izmjenaOmeni.php');
  }

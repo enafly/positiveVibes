@@ -4,20 +4,37 @@ include('header.php');
 if(isset($_REQUEST['registrujSe']) && !empty($_POST['userR']) && !empty($_POST['emailR']) && !empty($_POST['passR'])){
 	/* upisi u users.xml */
 
+
 	$users = new SimpleXMLElement("users.xml",null,true);
 
 	$user = $users->addChild('user');
-	$user->addChild('username',$_REQUEST["userR"]);
-	$user->addChild('email',$_REQUEST["emailR"]);
-	$user->addChild('pass',md5($_REQUEST["passR"]));
+	$user->addChild('username',proveri($_REQUEST["userR"]));
+	$user->addChild('email', proveri($_REQUEST["emailR"]));
+	$user->addChild('pass',md5(proveri($_REQUEST["passR"])));
 
 
 	$users->asXML('users.xml');
 
+	$name=proveri($_REQUEST["userR"]);
 	print"
+	<div class='col-2'>
+	</div>
+
+	<div class='col-8'>
+
+	<h1 id ='dobrodoslica'> Uspješna registracija </h1>
+	<h2 id ='dobrodoslica'> Hvala ".(string)$name."! </h2>
+
+	</div>
+
+	<div class='col-2'>
+	</div> ";
+
+
+/*
 	<div id='containerRL'>
 		<div id=tabbox>
-			<h1 href='#' id='signUp' class='tab SignUp'>Uspješna registracija</h1>
+			<h1 href='#' id='signUp' class='tab SignUp' id ='dobrodoslica'>Uspješna registracija</h1>
 		</div>
 		<div id='formpanel'>
 			<div id='registrujSebox'>
@@ -25,8 +42,7 @@ if(isset($_REQUEST['registrujSe']) && !empty($_POST['userR']) && !empty($_POST['
 				</div>
 			</div>
 	</div>
-
-	";
+	";*/
 
 }
 else{

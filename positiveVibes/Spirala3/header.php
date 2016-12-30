@@ -54,18 +54,15 @@ session_start();
       ?>
 		</div>
 
-<?php
-///////LUDA IDEJAAA
-/*$pages = new SimpleXMLElement("links.xml",null,true);
+  <?php
+  function proveri($data)
+  {
+        $data=trim($data);
+        $data=stripslashes($data);
+        $data=htmlspecialchars($data);
+        return $data;
+  }
 
-$link = $pages->addChild('link');
-$link->addChild('title','Popularno');
-$link->addChild('url','http://localhost/positiveVibes-master/spirala3/popularno.php');
-
-$pages->asXML('links.xml');
-*/
- ?>
-
-
+   ?>
 
 </header>

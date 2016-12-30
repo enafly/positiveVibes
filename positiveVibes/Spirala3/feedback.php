@@ -108,9 +108,9 @@ if(isset($_REQUEST['posaljiFeedback']))
 	$komentari = new SimpleXMLElement("feedback.xml",null,true);
 
 	$komentar = $komentari->addChild('komentar');
-	$komentar->addChild('nick', $_REQUEST["nickF"]);
-	$komentar->addChild('email',  $_REQUEST["emailF"]);
-	$komentar->addChild('tekstKomentar', $_REQUEST["komentarF"]);
+	$komentar->addChild('nick', proveri($_REQUEST["nickF"]));
+	$komentar->addChild('email', proveri($_REQUEST["emailF"]));
+	$komentar->addChild('tekstKomentar', proveri($_REQUEST["komentarF"]));
 
 	$komentari->asXML('feedback.xml');
 

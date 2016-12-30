@@ -20,6 +20,7 @@ body {
 #dobrodoslica{
     color:#fff;
     text-align:center;
+    font-family: monospace;
 }
 #adminMogucnost{
   color: #af7b6c;
@@ -243,15 +244,15 @@ header{
     color:#ffffff;
 }
 .SignUp{
-      background-color: transparent;
+    background-color: transparent;
     color:#ffffff;
 }
 .Feedback{
-      background-color: transparent;
+    background-color: transparent;
     color:#ffffff;
 }
 .vrati{
-      background-color: transparent;
+    background-color: transparent;
     color:#ffffff;
 }
 
