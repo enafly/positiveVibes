@@ -65,7 +65,7 @@
 >>## Spirala 3
 <br>
 
->####I : Urađeno je sve!
+>####I : Urađeno je sve + dodatno deployment stranice na OpenShift (http://positive-vibes-positivevibes.44fs.preview.openshiftapps.com)
 >####II: / 
 >####III: /
 >####IV: /
