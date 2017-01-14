@@ -126,10 +126,7 @@
 <br>
 >>## Spirala 4
 <br>
-
->####I : Urađeno je sve osim pod f)
-<br>Link deploymenta na Openshiftu:(http://positive-vibes-positivevibes.44fs.preview.openshiftapps.com)
-<br>Baza: wt4.sql
+>####I : Urađeno je sve osim pod f)<br>Link deploymenta na Openshiftu:(http://positive-vibes-positivevibes.44fs.preview.openshiftapps.com)<br>Baza: wt4.sql
 >####II: / 
 >####III: /
 >####IV: /
