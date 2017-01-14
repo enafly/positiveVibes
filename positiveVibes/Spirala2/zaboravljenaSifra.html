@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PositiveVibes</title>
+
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/indexStil.css">
+<script type="text/javascript" src="js/indexJS.js"></script>
+<script type="text/javascript" src="js/carouselJS.js"></script>
+<script type="text/javascript" src="js/ajaxJS.js"></script>
+<script type="text/javascript" src="js/fullscreenJS.js"></script>
+<link rel="stylesheet" href="css/errori.css">
+<script type="text/javascript" src="js/validacijeJS.js"></script>
+
+</head>
+<body>
+
+			<div id="containerRL">
+				<div id=tabbox>
+					<a href="#" id="vrati" class="tab vrati">Vrati račun</a>
+				</div>
+				<div id="formpanel">
+					<div id="Vratibox">
+						<form id="VratiForma"  action="form_action.asp" onsubmit="return validacijaV()" method="post">
+							<input type="text" id="useremail" name="useremail" class="textStil1" tabindex="1" placeholder="E-mail">
+							<p id="emailErrV" ></p>
+							<input type="submit" form="VratiForma" value="Pošalji" class="btn1" tabindex="2">
+						</form>
+					</div>
+				</div>
+			</div>
+
+
+</body>
+</html>
