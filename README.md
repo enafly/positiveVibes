@@ -127,7 +127,9 @@
 >>## Spirala 4
 <br>
 
->####I : Urađeno je 
+>####I : Urađeno je sve osim pod f)
+<br>Link deploymenta na Openshiftu:(http://positive-vibes-positivevibes.44fs.preview.openshiftapps.com)
+<br>Baza: wt4.sql
 >####II: / 
 >####III: /
 >####IV: /
@@ -159,10 +161,14 @@
 >_promenaOmeni.php_ Kada admin mijenja "O nama" tekst <br>
 >_promeniSliku.php_ Kada admin mijenja "O nama" sliku <br>
 >_registracija.php_ Registracija<br>
+>_RESTWebServis.php_ Metoda REST i JSON<br>
 >_search.php_ Search <br>
+>_spasiUBazuFeedbackILokaciju.php_ Admin na klik spasi u bazu feedback(komentare) i lokacije <br>
+>_spasiUBazuKorisnike.php_ Admin na klik spasi u bazu korisnike <br>
 >_upload.php_ Za upload slike <br>
 >_users.xml_ Korisnici koji su registrovani <br>
 >_zaboravljenaSifra.php_ Kad se zaboravi šifra da se mail upiše<br>
+>_wt4.sql_ Baza<br>
 
 >>**css:** _Css kod za svaki element na stranici, font koji sam koristila te slika za pozadinu. <br>
 >_bcg.jpeg_ slika za pozadinu<br>
